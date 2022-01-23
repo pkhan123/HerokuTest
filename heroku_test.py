@@ -13,7 +13,7 @@ import pytz
 import requests
 
 def job():
-    print('life is beautiful ... Ok!')
+    print('life is beautiful ... Ok Tested!')
 
 # Run job every 2 minute
 schedule.every(2).minutes.do(job)
